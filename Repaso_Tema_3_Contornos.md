@@ -8,7 +8,7 @@ Apuntes de repaso para el examen de Entornos de desarrollo
 Las pruebas solo ven el error cuando se topan con el pero no sifnifica que no exista el error
 - **Es imposible probar todos los casos posibles:**
 	
-Los programas pueden llegar a ser muy grandes y pueden tener mucho código, tanto que resulta imposible probarlo todo, esto nos obliga a elegir bien los caos donde ejecutar la prueba unitaria
+Los programas pueden llegar a ser muy grandes y pueden tener mucho código, tanto que resulta imposible probarlo todo, esto nos obliga a elegir bien los casos donde ejecutar la prueba unitaria
 - **La paradoja del pesticida**:
 	
 La eficacia en la detección de errores disminuye con el paso del tiempo, no se puede hacer unas pruebas una vez y usarlas para el resto de la vida, hay que ir modificando las pruebas según vaya pasando el tiempo
@@ -60,12 +60,12 @@ Todo código escrito tiene errores, de hecho si no los encuentras es cuando más
 * **Pruebas de sobrecarga o de estrés:** Evalúan el comportamiento del sistema al someterlo a una situación limite ( con una demanda excesiva de peticiones, utilización de la memoria máxima, muchos usuarios realizando la misma operación...),
 * **Estabilidad:** Determina si el sistema puede aguantar una carga esperada continuada ( por posible fuga de memoria).
 * **Compatibilidad:** Probar el sistema en diferentes entornos o sistemas operativos.
-*** Prueba de picos:** Observar el comportamiento del sistema cuando varia el número de usuarios, tanto cuando bajan como cuando tienen cambios drásticos en su carga. Recomendado usar herramientas automáticas que simules estos cambios.
+* **Prueba de picos:** Observar el comportamiento del sistema cuando varia el número de usuarios, tanto cuando bajan como cuando tienen cambios drásticos en su carga. Recomendado usar herramientas automáticas que simules estos cambios.
 * **Seguridad y acceso a datos:** Prueban como responde el sistema a ataques externos, como irrupciones no autorizadas o inyección de código malicioso.
 * **Tolerancia a fallos y recuperación:** Simulan anomalías externas ( Fallos eléctricos, de dispositivos , comunicación...) y ven si el sistema se recupera sin perdida de datos, fallos de integridad y el tiempo que tarda.
 	
 #### Distinguir entre Pruebas Alfa vs Pruebas Beta
-* **Pruebas Alfa:** Asociandas al software contratado. Realizadas por el cliente en un entorno controlado bajo la supervisión de la empresa desarrolladora, la cual toma datos de posibles errores y problemas en el uso.
+* **Pruebas Alfa:** Asociadas al software contratado. Realizadas por el cliente en un entorno controlado bajo la supervisión de la empresa desarrolladora, la cual toma datos de posibles errores y problemas en el uso.
 * **Pruebas Beta:** Asociadas al software de interés general o software contratado. Es realizada por usuarios. A veces publicadas al público general, con esta etiqueta para que se sepa que puede tener errores.
 	
 #### Definir Pruebas de Regresión
